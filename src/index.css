@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@layer base {
+  html {
+    font-family: 'Quicksand', ui-sans-serif, system-ui, sans-serif;
+  }
+
+  body {
+    @apply min-h-svh antialiased;
+    @apply bg-gradient-to-br from-pink-100 via-rose-100 to-fuchsia-100 text-pink-950;
+    @apply dark:from-pink-950 dark:via-purple-950 dark:to-fuchsia-950 dark:text-pink-50;
+  }
+
+  #root {
+    @apply min-h-svh;
+  }
+}
+
+.font-heading {
+  font-family:
+    'Fredoka',
+    'Quicksand',
+    ui-sans-serif,
+    system-ui,
+    sans-serif;
+}
